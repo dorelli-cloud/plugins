@@ -1,0 +1,10 @@
+{
+  "name": "dorelli",
+  "description": "Zet een statische site of een Node-app online op Dorelli Cloud (dorelli.cloud): één commando, binnen een minuut live, in Nederland. Skill, MCP-server en een /dorelli-commando.",
+  "version": "0.1.0",
+  "author": { "name": "Dorelli Cloud", "email": "support@dorelli.cloud", "url": "https://dorelli.cloud" },
+  "homepage": "https://dorelli.cloud/deploy",
+  "repository": "https://github.com/dorelli-cloud/plugins",
+  "license": "MIT",
+  "keywords": ["hosting", "deploy", "static-site", "mcp", "netherlands", "eu"]
+}

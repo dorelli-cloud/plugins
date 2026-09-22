@@ -1,0 +1,26 @@
+{
+  "name": "dorelli-cloud",
+  "owner": {
+    "name": "Dorelli Cloud",
+    "email": "support@dorelli.cloud",
+    "url": "https://dorelli.cloud"
+  },
+  "metadata": {
+    "description": "Plugins van Dorelli Cloud: een AI-gebouwde website of app online zetten in Nederland, vanuit Claude Code.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "dorelli",
+      "source": "./dorelli",
+      "description": "Zet een statische site of een Node-app online op Dorelli Cloud: één commando, binnen een minuut op <naam>.dorelli.cloud, met een MCP-server en een skill voor het deployen.",
+      "version": "0.1.0",
+      "author": { "name": "Dorelli Cloud", "url": "https://dorelli.cloud" },
+      "homepage": "https://dorelli.cloud/deploy",
+      "repository": "https://github.com/dorelli-cloud/plugins",
+      "license": "MIT",
+      "keywords": ["hosting", "deploy", "static-site", "mcp", "netherlands", "eu"],
+      "category": "deployment"
+    }
+  ]
+}

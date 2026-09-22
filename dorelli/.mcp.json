@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dorelli": {
+      "command": "npx",
+      "args": ["-y", "github:dorelli-cloud/cli", "mcp"]
+    }
+  }
+}
