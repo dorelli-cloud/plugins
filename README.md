@@ -1,24 +1,24 @@
-# Dorelli Cloud plugins voor Claude Code
+# Dorelli Cloud plugins for Claude Code
 
-Eén plugin, `dorelli`: een AI-gebouwde website of app online zetten op
-[Dorelli Cloud](https://dorelli.cloud), in Nederland, binnen een minuut.
+One plugin, `dorelli`: put a website or app built with AI online on
+[Dorelli Cloud](https://dorelli.cloud), in the Netherlands, within a minute.
 
 ```
 /plugin marketplace add dorelli-cloud/plugins
 /plugin install dorelli@dorelli-cloud
 ```
 
-Daarna:
+After that:
 
-- `/dorelli` zet de site in de huidige map live op `<naam>.dorelli.cloud`.
-- De skill `dorelli-deploy` doet hetzelfde als je Claude vraagt je site
-  online te zetten.
-- De MCP-server `dorelli` geeft Claude de tools `deploy_site` en
+- `/dorelli` puts the site in the current folder live on `<name>.dorelli.cloud`.
+- The skill `dorelli-deploy` does the same when you ask Claude to put your
+  site online.
+- The MCP server `dorelli` gives Claude the tools `deploy_site` and
   `site_status`.
 
-Geen account nodig; de beheerlink komt per mail. Statische sites en Node-apps
-(Next, Express, Fastify, Hono, Koa, Nuxt, Remix, SvelteKit); geen PHP, geen
-Python. Prijzen en grenzen staan op [dorelli.cloud/pricing](https://dorelli.cloud/pricing).
+No account needed; the management link arrives by email. Static sites and
+Node apps (Next, Express, Fastify, Hono, Koa, Nuxt, Remix, SvelteKit); no PHP,
+no Python. Prices and limits are on [dorelli.cloud/pricing](https://dorelli.cloud/pricing).
 
-De bron van deze plugin is `packages/plugin/` in het platform van Dorelli
-Cloud; deze repository is de spiegel die de marktplaats ophaalt.
+The source of this plugin is `packages/plugin/` in the Dorelli Cloud
+platform; this repository is the mirror the marketplace fetches.

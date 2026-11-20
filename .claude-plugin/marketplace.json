@@ -6,15 +6,15 @@
     "url": "https://dorelli.cloud"
   },
   "metadata": {
-    "description": "Plugins van Dorelli Cloud: een AI-gebouwde website of app online zetten in Nederland, vanuit Claude Code.",
+    "description": "Plugins from Dorelli Cloud: put a website or app built with AI online in the Netherlands, from Claude Code.",
     "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "dorelli",
       "source": "./dorelli",
-      "description": "Zet een statische site of een Node-app online op Dorelli Cloud: één commando, binnen een minuut op <naam>.dorelli.cloud, met een MCP-server en een skill voor het deployen.",
-      "version": "0.1.0",
+      "description": "Put a static site or a Node app online on Dorelli Cloud: one command, on <name>.dorelli.cloud within a minute, with an MCP server and a skill for deploying.",
+      "version": "0.2.1",
       "author": { "name": "Dorelli Cloud", "url": "https://dorelli.cloud" },
       "homepage": "https://dorelli.cloud/deploy",
       "repository": "https://github.com/dorelli-cloud/plugins",
